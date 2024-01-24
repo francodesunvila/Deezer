@@ -10,21 +10,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
     <!--Header-->
-    <header>
+    <header class="header">
         <!--Left Header-->
-        <img src= "Image/logo deezer.png" alt= “Logo-Header”>
+        <div class="header__contain-logo">
+        <img class="header__logo" src= "Image/logo deezer.png" alt= “Logo-Header”>
+        </div>
         <!--Right Header-->
-        <div>
-            <div>
-                <h3>Ofertas</h3>
-                <h3>Característica</h3>
-                <h3>Música</h3>
+        <div class="header__right-header">
+            <!--
+            <div class="header__option">
+                <h3 class="header__link">Ofertas</h3>
+                <h3 class="header__link">Característica</h3>
+                <h3 class="header__link">Música</h3>
             </div>
-            <button> Iniciar sesión</button>
-            <button> Registrarse</button>
+            
+            <div class="header__contain-login">
+            <button class="header__login"> Iniciar sesión</button>
+            <button class="header__login"> Registrarse</button>
+            </div>
+        -->
+            <div class="header__list">
+                <i class="bi bi-list"></i>
+            </div>
         </div>
         <hr/>
     </header>
