@@ -70,85 +70,118 @@
 
     <!--Section-->
     <section class="section">
-        <div>
-            <h3>PREMIUM</h3>
-            <h4>1 MES GRATIS</h4>
-            <p>
+        <div class="section__contain-box">
+            <div>
+            <h3 class="section__contain-premium">PREMIUM</h3>
+            </div>
+            <h4 class="section__contain-title">1 MES GRATIS</h4>
+            <p class="section__contain-text">
                 Selecciona y reproduce cualquier canción sin anuncios, descárgate tus favoritas <br/>y 
                 escúchalas sin conexión. Escucha contenidos en todos tus dispositivos y <br/>disfruta de 
                 sonido de alta fidelidad.
             </p>
-            <button>Pruébalo gratis</button>  
-            <p>Luego, Arg $429,00/mes<br/> Sin compromiso, puedes cancelar en cualquier momento.</p>
-            <a href= “”>Más información</a> 
+            <button class="section__contain-button"><b>Pruébalo gratis</b></button>  
+            <p class="section__contain-promo">Luego, Arg $429,00/mes<br/> Sin compromiso, puedes cancelar en cualquier momento.</p>
+            <a class="section__contain-link" href= “”>Más información</a> 
         </div>
+
         <!--Primer acordion-->
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">  
-            
-                
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Descuento anual <div>-25%</div>
-                </button>
-                </h2>
+        <div class="container" style="display: flex; flex-direction: column; align-items: center;">
 
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <h4>PREMIUM ANUAL</h4>
-                  <h5>1 MES GRATIS</h5>
-                  <p>Todas las ventajas de Deezer Premium con un precio anual con descuento.</p>
-                  <button>empezar una prueba gratuita de 1 mes</button>  
-                  <p>Arg $5140,00/mes Arg $3859,00/año<br/> 25% de descuento cada año <br/> Compromiso de 1 año.
-                  <a href= “”>Más información</a> 
+            <div class="accordion " style="width: 350px; display: flex; flex-direction: column;  " id="accordionPanelsStayOpenExample">
+                <div class="accordion-item" style="margin-bottom: 5px">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button bg-danger bg-opacity-25 "   type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      Descuento anual <span style="background: black; color: white; border-radius: 5px; margin-left: 20px;">-25%</span>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body"  >
+
+                        <div class="container__contain-premium-anual">
+                        <h4 class="container__premium-anual">PREMIUM ANUAL</h4>
+                        </div>
+                        <h5>1 MES GRATIS</h5>
+                        <p>Todas las ventajas de Deezer Premium con un precio anual con descuento.</p>
+                        <div class="container__contain-test-button">
+                        <button class="container__test-button"><b>Empezar una prueba gratuita de 1<br/> mes</b></button>  
+                        </div>
+                        <p class="container__text-promo"><span>Arg $5140,00/año</span> Arg $3859,00/año <br/> 25% de descuento cada año <br/> Compromiso de 1 año.
+                        <a class="container__promo-link" href= “”><br/>Más información</a> 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item" >
+                  <h2 class="accordion-header" >
+                    <button class="accordion-button bg-danger bg-opacity-25 collapsed"  type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      Descuento para estudiantes <span style="background: black; color: white; border-radius: 5px; margin-left: 20px; width: 50px; height: 25px;">-50%</span>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <div class="container__student-button">
+                        <h4 class="container__student-anual">STUDENT</h4>
+                        </div>
+                        <h5>1 MES GRATIS</h5>
+                        <p>Todas las ventajas de Deezer Premium a mitad de precio para que disfrutes al <br/>
+                            máximo de la vida de estudiante. Escucha contenidos en todos tus dispositivos y<br/>
+                            disfruta de sonido de alta fidelidad.</p>
+                        <button class="container__test-button-student"> <b>Pruébalo gratis</b></button>  
+                        <p class="container__text-student">luego, Arg $209,00/mes<br/> Sin compromiso, puedes cancelar en cualquier momento.
+    
+                        <a class="container__promo-link-2"href= “”><br/>Más información</a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            
-        </div>
-        
-            
-            <div class="accordion-item">
-                
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Descuento para estudiantes <div>-50%</div>
-                </button>
-              </h2>
-              
-              
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <h4>STUDENT</h4>
-                    <h5>1 MES GRATIS</h5>
-                    <p>Todas las ventajas de Deezer Premium a mitad de precio para que disfrutes al <br/>
-                        máximo de la vida de estudiante. Escucha contenidos en todos tus dispositivos y<br/>
-                        disfruta de sonido de alta fidelidad.</p>
-                    <button>Pruébalo gratis</button>  
-                    <p>luego, Arg $209,00/mes<br/> Sin compromiso, puedes cancelar en cualquier momento.
-
-                    <a href= “”>Más información</a> 
-                </div>
-              </div>
-              
-            </div>
-        
         </div>
 
-        <!--Segundo acordion-->
-        <div>
-            <h3>FAMILY</h3>
-            <h4>1 MES GRATIS</h4>
-            <p>
+       <!--Segundo acordion--> 
+        <div class="container__contain-box-2">
+            <h3 class="container__family">FAMILY</h3>
+            <h4 class="container__title-mes">1 MES GRATIS</h4>
+            <p class="container__text-mes">
                 Música para todos. Consigue 6 cuentas individuales con todas las ventajas de <br/> 
                 Deezer Premium, incluido el sonido de alta fidelidad. Escucha simultáneamente <br/>
                 en varios dispositivos.
             </p>
-            <button>Pruébalo gratis</button>  
-            <p>Luego, Arg $719,00/mes<br/> Sin compromiso, puedes cancelar en cualquier momento.</p>
-            <a href= “”>Más información</a> 
+            <button class="container__test-button-family"><b>Pruébalo gratis</b></button>  
+            <p class="container__text-promo-mes">Luego, Arg $719,00/mes<br/> Sin compromiso, puedes cancelar en cualquier momento.</p>
+            <a class="container__link-mes" href= “”>Más información</a> 
         </div>
 
+        <div class="container__contain-box-3">
+            <div class="accordion" style="width: 350px; display: flex; flex-direction: column; margin-bottom: 40px;  " id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button bg-danger bg-opacity-25"  type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      Descuento anual <span style="background: black; color: white; border-radius: 5px; margin-left: 20px; width: 50px; height: 25px;">-8%</span>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        <div class="container__family-anual-button">
+                            <h4 class="container__family-anual">FAMILY ANUAL</h4>
+                            </div>
+                            <h5>1 MES GRATIS</h5>
+                            <p>Todas las ventajas de Deezer Family con un precio anual con descuento.</p>
+                            <button class="container__anual-button-family"> <b>Empezar una prueba gratuita de 1 mes</b></button>  
+                            <p class="container__text-anual-family"><span>Arg$8.628,00/año</span> Arg$7.909,00/año<br/>
+                                8% de descuento cada año<br/>
+                                Compromiso de 1 año.</p>
+        
+                            <a class="container__promo-link-2"href= “”><br/>Más información</a>
+                        </div> 
+                    </div>               
+                    </div>
+                  </div>
+                </div>
+            
+
        
+
+       <!--
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header">
@@ -165,7 +198,12 @@
             
             
         </div>
+
+    </div>
+    -->
+     
     </section>
+
 
     <!--Cards-->
     <section>

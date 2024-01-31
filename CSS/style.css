@@ -146,6 +146,249 @@
     font-size: 15px;
 }
 
+/*section*/
+
 .section{
-    background: rgb(138, 46, 192);
+    background: #8849ad;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
+
+.section__contain-box{
+    
+    background: white;
+    width: 350px;
+    height: 450px;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.section__contain-premium{
+    
+    
+    width: 130px;
+    height: 45px;
+    background: #8849ad;
+    color: white;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;     
+}
+
+.section__contain-title{
+    margin-left: 25px;
+}
+.section__contain-text{
+    margin-left: 25px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.section__contain-button{
+    margin-left: 25px;
+    background: #000000ee;
+    color: white;
+    width: 290px;
+    height: 55px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.section__contain-button:hover{
+    background: #424242;
+    transition: 0.3s;
+}
+
+.section__contain-promo{
+    margin-left: 25px;
+    margin-bottom: -2px;
+    font-size: 13px;
+}
+.section__contain-link{
+    margin-left: 25px;
+    color: rgb(131, 130, 130);
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+
+.container__contain-premium-anual{
+    
+    width: 200px;
+    height: 45px;
+    background: #8849ad;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.container__premium-anual{
+    margin-left: 12px;
+}
+
+.container__test-button{
+    
+    background: #070707f6;
+    color: white;
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+.container__test-button:hover{
+    background: #424242;
+    transition: 0.3s;
+}
+
+.container__text-promo{
+    color: rgb(77, 71, 71);
+    font-size: 13px;
+}
+.container__text-promo span{
+    text-decoration:line-through;
+    color: grey;
+    font-size: 13px;
+}
+.container__promo-link{
+    color: grey;
+    font-size: 12px;
+}
+
+.container__student-anual{
+    
+    width: 125px;
+    height: 45px;
+    background: #8849ad;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+}
+.container__test-button-student{
+    background: #070707f6;
+    color: white;
+    width: 290px;
+    height: 55px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.container__test-button-student:hover{
+    background: #424242;
+    transition: 0.3s;
+}
+.container__promo-link-2{
+    color: grey;
+    font-size: 12px;
+}
+.container__text-student{
+    font-size: 13px;
+}
+
+.container__contain-box-2{
+    background: white;
+    width: 350px;
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+}
+.container__family{
+    background: #e75f3d;
+    width: 125px;
+    height: 45px;
+    margin-left: 25px;
+    margin-top: 25px;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+
+}
+.container__title-mes{
+    margin-left: 25px;
+}
+
+.container__text-mes{
+    margin-left: 25px;
+    margin-right: 24px; 
+}
+.container__test-button-family{
+    background: #070707f6;
+    color: white;
+    width: 290px;
+    height: 55px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.container__test-button-family:hover{
+    background: #424242;
+    transition: 0.3s;
+}
+.container__text-promo-mes{
+    margin-left: 25px;
+    margin-bottom: -2px;
+    font-size: 13px;
+    
+    
+}
+.container__link-mes{
+    margin-left: 25px;
+    color: grey;
+    font-size: 12px;  
+}
+
+.container__family-anual{
+    background: #e75f3d;
+    width: 180px;
+    height: 45px;
+    
+    margin-top: 5px;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    display: flex;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+.container__anual-button-family{
+    background: #070707f6;
+    color: white;
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.container__anual-button-family:hover{
+    background: #424242;
+    transition: 0.3s;
+}
+.container__text-anual-family span{
+    text-decoration:line-through;
+    color: grey;
+    font-size: 13px;
+}
+.container__text-anual-family{
+    color: rgb(77, 71, 71);
+    font-size: 13px;
+    margin-bottom: -20px;
+}
+
