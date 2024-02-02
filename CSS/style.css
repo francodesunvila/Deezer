@@ -392,3 +392,127 @@
     margin-bottom: -20px;
 }
 
+.footer{
+    background: black;
+    
+}
+.footer__contain-apps{
+    display: flex;
+    margin-top: 40px;
+    
+    justify-content: center;
+    margin-bottom: 70px;
+
+}
+
+.footer__apps{
+    height: 50px;
+    
+    margin: 10px
+}
+.footer__contain-all-links{
+    
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.footer__contain-links{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    
+   
+}
+.footer__links{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 15px;
+    
+}
+.footer__header{
+    color: rgb(190, 180, 190);
+    text-decoration: none;
+    margin-bottom: 70px;
+    margin-left: 15px;
+    font-size: 19px;
+    
+}
+.footer__contain-header-link{
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+/*tercer footer*/
+
+.footer__icons-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__contain-year-language{
+    display: flex;
+    
+    justify-content: center;
+    height: 50px;
+    margin-bottom: 140px;
+}
+
+.footer__logo-deezer{
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.footer__contain-social{
+    margin-bottom: 20px;
+}
+.bi-facebook{
+    margin: 10px;
+    font-size: 22px;
+    color: white;
+}
+.bi-instagram{
+    margin:10px;
+    font-size: 22px;
+    color: white;
+}
+.bi-twitter-x{
+    margin:10px;
+    font-size: 22px;
+    color: white;
+}
+.bi-youtube{
+    margin:10px;
+    font-size: 22px;
+    color: white;
+}
+
+.footer__year-footer{
+    color: #beb6b6;
+}
+.dropdown-item{
+    background: rgb(255, 255, 255);
+    color: #070307;
+    font-size: 12px;
+}
+.footer__fondo{
+    
+    
+}
+.footer__text{
+    display: flex;
+    justify-content: center;
+    color: rgb(161, 146, 146);
+    border-bottom: 2px solid rgb(58, 33, 33);
+    height: 400px;
+    margin-bottom: -1px;
+    align-content: center;
+    padding: 90px;
+    font-size: 14px;
+    background: #180f14;
+    
+}
