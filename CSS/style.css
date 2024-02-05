@@ -426,11 +426,23 @@
     border-radius: 10px;
     width: 250px;
     margin-bottom: 20px;
-
 }
+.cards__button-1:hover{
+    background: rgb(61, 60, 60);
+    transition: 0.5s;
+}
+
 .cards__button-2{
     background: inherit;
     border: none;
+    height: 45px;
+    border-radius: 10px;
+    width: 230px;
+    margin-bottom: 20px;
+}
+.cards__button-2:hover{
+    background: rgb(202, 192, 192);
+    transition: 0.5s;
 }
 
 .cards__contain-cards{
@@ -479,7 +491,10 @@
     background: #070307;
     color: white;
     width: 100px;
-    text-align: center;      
+    text-align: center; 
+    border-radius: 50px;  
+    height: 120px;
+    width: 100px;    
 }
 
 /* card 6*/
@@ -521,7 +536,10 @@
     background: #c877f7;
     color: white;
     width: 100px;
-    text-align: center;      
+    text-align: center; 
+    border-radius: 50px; 
+    height: 120px;
+    width: 100px;       
 }
 
 /* card 12 */
@@ -562,7 +580,10 @@
     background: #070307;
     color: white;
     width: 100px;
-    text-align: center;      
+    text-align: center;
+    border-radius: 150px;  
+    height: 120px;
+    width: 100px;      
 }
 
 /*footer*/
@@ -611,7 +632,7 @@
     
 }
 .footer__header{
-    color: rgb(190, 180, 190);
+    color: #beb4be;
     text-decoration: none;
     margin-bottom: 70px;
     margin-left: 15px;
@@ -619,7 +640,7 @@
     
 }
 .footer__contain-header-link{
-    margin-left: 15px;
+    
     margin-bottom: 30px;
 }
 
@@ -675,10 +696,7 @@
     color: #070307;
     font-size: 12px;
 }
-.footer__fondo{
-    
-    
-}
+
 .footer__text{
     display: flex;
     justify-content: center;
@@ -690,7 +708,188 @@
     padding: 50px;
     font-size: 14px;
     background: #0c080c;
-    text-align: center;
-   
+    text-align: center;  
+}
+
+@media (min-width: 768px){
+
+    .header{
+        display: flex;
+        
+    }
+    .header__right-header{
+        display: flex;
+        justify-content: center;
+        width: 350px;
+        height: 70px;
+    }
+    .header__list{
+        display: none;
+    }
+    .header__logo{
+        margin-left: 100px;
+    }
+    .header__contain-login{
+        display: flex;
+        flex-direction: row;
+
+        margin-right: 50px;
+        margin-top: 15px;
+    }
+    .header__login{
+        background: black;
+        color: white;
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 5px;
+        background: #8849ad;
+        
+        height: 35px;
+    }
+    .header__login:hover{
+        background:#a88fb6;
+        transition: 0.5s;
+    }
+    .header__login-black{
+        background: black;
+        color: white;
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 5px;
+        height: 35px;
+        margin-right: 10px;
+        width: 110px;   
+    }
+    .header__login-black:hover{
+        background:#424242;
+        transition: 0.5s;
+    }
+
+    /* main*/
+    .main__contain-title{
+       
+        width: 650px;
+        text-align: center;  
+    }
+    .main__title{
+        font-size: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    }
+    .main__contain-box{
+        width: 450px;
+        height: 70px;
+    }
+    .main__exclamation{
+        margin-top: 20px;
+    }
+    .main__contain-box-2{
+        width: 450px;
+        height: 70px;  
+        margin-bottom: 30px;
+    }
+    .main__contain-title-and-text{
+        margin-top: 25px;
+    }
+    .main__bell{
+        width: 40px;
+    }
+
+    /*section*/
+    .section{
+        align-items: center;
+    }
+
+    .section__contain-box{
+        width: 450px;
+        margin-right: 20px;
+        height: 400px;
+    }
+    .section__contain-button{
+        width: 400px;
+    }
+    .container{
+        width: 450px;
+    }    
+
+    /*cards*/
+    .cards{
+        
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cards__contain-gift{
+        
+        width: 300px; 
+        margin-right: 100px;
+        margin-left: 30px;
+    }
+    .cards__gift{
+        text-align: start;
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+    .cards__contain-text{
+        margin-bottom: 30px;
+    }
+    .cards__button-1{
+        margin-right: 40px;
+    }
+    .cards__button-2{
+        margin-right: 60px;
+    }
+    .cards__contain-cards{
+        
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 350px;
+    }
+    .cards__contain-card-3{
+        margin-right: 50px;
+    }
     
+    .cards__contain-card-6{
+        margin-right: 50px;
+    }
+
+    /*footer*/
+    .footer__text{
+        font-size: 15px;  
+    }
+    .footer__contain-all-links{
+        display: flex;
+        flex-direction: row;
+        
+        padding: 15px;
+    }
+    
+   .footer__header{
+         
+        margin-left: 0px;
+   }
+   .footer__icons-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+   }
+   .footer__contain-year-language{
+        
+        margin-top: 150px;
+        order: 3;
+        
+   }
+  
+   .footer__logo-deezer{
+        order: 1;
+        margin-bottom: 100px;
+        
+        
+   }
+   
+
 }
