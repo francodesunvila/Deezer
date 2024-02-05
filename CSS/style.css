@@ -96,8 +96,7 @@
     align-items: flex-start;
     margin-top: 0%;
     padding-top: 0%;
-    border-top: 0%;
-    
+    border-top: 0%;  
     margin-bottom: 15px;
     font-size: 20px;   
 }
@@ -152,12 +151,10 @@
     background: #8849ad;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;   
 }
 
-.section__contain-box{
-    
+.section__contain-box{   
     background: white;
     width: 350px;
     height: 450px;
@@ -165,9 +162,7 @@
     border-radius: 5px;
     margin-bottom: 5px;
 }
-.section__contain-premium{
-    
-    
+.section__contain-premium{   
     width: 130px;
     height: 45px;
     background: #8849ad;
@@ -216,7 +211,6 @@
 }
 
 .container__contain-premium-anual{
-    
     width: 200px;
     height: 45px;
     background: #8849ad;
@@ -224,22 +218,19 @@
     margin-bottom: 10px;
     border-radius: 10px;
     display: flex;
-    
 }
 
 .container__premium-anual{
     margin-left: 12px;
 }
 
-.container__test-button{
-    
+.container__test-button{ 
     background: #070707f6;
     color: white;
     width: 290px;
     height: 80px;
     border-radius: 10px;
     margin-bottom: 10px;
-
 }
 
 .container__test-button:hover{
@@ -262,7 +253,6 @@
 }
 
 .container__student-anual{
-    
     width: 125px;
     height: 45px;
     background: #8849ad;
@@ -300,8 +290,7 @@
     height: 450px;
     margin-top: 20px;
     border-radius: 5px;
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px;   
 }
 .container__family{
     background: #e75f3d;
@@ -316,7 +305,6 @@
     padding: 7px;
     display: flex;
     justify-content: center;
-
 }
 .container__title-mes{
     margin-left: 25px;
@@ -344,8 +332,6 @@
     margin-left: 25px;
     margin-bottom: -2px;
     font-size: 13px;
-    
-    
 }
 .container__link-mes{
     margin-left: 25px;
@@ -357,7 +343,6 @@
     background: #e75f3d;
     width: 180px;
     height: 45px;
-    
     margin-top: 5px;
     color: white;
     margin-bottom: 15px;
@@ -398,11 +383,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .cards__gift{
-    
     text-align: center;
     margin-top: 50px;
     font-size: 35px;
@@ -417,7 +400,6 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 40px;
-
 }
 .cards__button-1{
     background: #070307;
@@ -456,7 +438,6 @@
 /*card 3*/
 
 .cards__contain-card-3{
-    
     height: 270px;
     width: 230px;
     display: flex;
@@ -464,7 +445,7 @@
     align-items: center;
     background: #c877f7;
     margin-left: 190px;
-    margin-right: 0px;
+    margin-right: 0px; 
 }
 .cards__contain-card-3:hover{
     transition: 0.5s;
@@ -474,19 +455,15 @@
 }
 
 
-.cards__contain-deezer-1{
-    
+.cards__contain-deezer-1{ 
     margin-top: 40px;
     margin-bottom: 10px;
 }
 
 .cards__deezer-1{
-    
     font-size: 45px;
-    
 }
 .cards__card-3{
-    
     font-size: 70px;
     background: #070307;
     color: white;
@@ -499,7 +476,6 @@
 
 /* card 6*/
 .cards__contain-card-6{
-    
     height: 270px;
     width: 230px;
     display: flex;
@@ -509,7 +485,6 @@
     position: relative;
     margin-left: -110px;
     margin-top: -50px;
-    
 }
 .cards__contain-card-6:hover{
     transition: 0.5s;
@@ -519,19 +494,15 @@
 }
 
 .cards__contain-deezer-2{
-    
     margin-top: 40px;
     margin-bottom: 10px;
 }
 
 .cards__deezer-2{
-    
     font-size: 45px;
     color: #c877f7;
-    
 }
 .cards__card-6{
-    
     font-size: 70px;
     background: #c877f7;
     color: white;
@@ -545,7 +516,6 @@
 /* card 12 */
 
 .cards__contain-card-12{
-    
     height: 270px;
     width: 230px;
     display: flex;
@@ -553,7 +523,6 @@
     align-items: center;
     background: #c877f7;
     margin-left: -90px;
-    
 }
 .cards__contain-card-12:hover{
     transition: 0.5s;
@@ -564,18 +533,14 @@
 
 
 .cards__contain-deezer-3{
-    
     margin-top: 40px;
     margin-bottom: 10px;
 }
 
 .cards__deezer-3{
-    
     font-size: 45px;
-    
 }
 .cards__card-12{
-    
     font-size: 70px;
     background: #070307;
     color: white;
@@ -589,47 +554,35 @@
 /*footer*/
 
 .footer{
-    background: black;
-    
-    
+    background: black; 
 }
 .footer__contain-apps{
     display: flex;
     margin-top: 40px;
-    
     justify-content: center;
     margin-bottom: 70px;
-
 }
 
 .footer__apps{
     height: 50px;
-    
     margin: 10px
 }
 .footer__contain-all-links{
-    
     display: flex;
     flex-direction: column;
-    
-   
 }
 .footer__contain-links{
-    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 15px;
     margin-bottom: 50px;
-    
-   
 }
 .footer__links{
     color: white;
     text-decoration: none;
     font-size: 17px;
     margin: 15px;
-    
 }
 .footer__header{
     color: #beb4be;
@@ -637,10 +590,8 @@
     margin-bottom: 70px;
     margin-left: 15px;
     font-size: 19px;
-    
 }
 .footer__contain-header-link{
-    
     margin-bottom: 30px;
 }
 
@@ -653,7 +604,6 @@
 }
 .footer__contain-year-language{
     display: flex;
-    
     justify-content: center;
     height: 50px;
     margin-bottom: 140px;
@@ -714,8 +664,7 @@
 @media (min-width: 768px){
 
     .header{
-        display: flex;
-        
+        display: flex;  
     }
     .header__right-header{
         display: flex;
@@ -732,7 +681,6 @@
     .header__contain-login{
         display: flex;
         flex-direction: row;
-
         margin-right: 50px;
         margin-top: 15px;
     }
@@ -743,7 +691,6 @@
         font-size: 15px;
         padding: 5px;
         background: #8849ad;
-        
         height: 35px;
     }
     .header__login:hover{
@@ -766,8 +713,7 @@
     }
 
     /* main*/
-    .main__contain-title{
-       
+    .main__contain-title{ 
         width: 650px;
         text-align: center;  
     }
@@ -831,18 +777,14 @@
         font-size: 12px;
     }
 
-
     /*cards*/
-    .cards{
-        
-        
+    .cards{   
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .cards__contain-gift{
-        
+    .cards__contain-gift{ 
         width: 300px; 
         margin-right: 100px;
         margin-left: 30px;
@@ -861,8 +803,7 @@
     .cards__button-2{
         margin-right: 60px;
     }
-    .cards__contain-cards{
-        
+    .cards__contain-cards{     
         margin-right: 20px;
         display: flex;
         flex-direction: row;
@@ -883,33 +824,26 @@
     }
     .footer__contain-all-links{
         display: flex;
-        flex-direction: row;
-        
+        flex-direction: row;       
         padding: 15px;
     }
     
-   .footer__header{
-         
+   .footer__header{       
         margin-left: 0px;
    }
    .footer__icons-footer{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        
+        justify-content: space-between;    
    }
-   .footer__contain-year-language{
-        
+   .footer__contain-year-language{   
         margin-top: 150px;
-        order: 3;
-        
+        order: 3;    
    }
   
    .footer__logo-deezer{
         order: 1;
-        margin-bottom: 100px;
-        
-        
+        margin-bottom: 100px;    
    }
 }
 
@@ -924,11 +858,9 @@
         display: block;
         display: flex;
         flex-direction: row;
-        
         align-items: center;
         margin-right: 40px;
         width: 650px;
-        
     }
     .header__link{    
         font-size: 21px;
@@ -948,7 +880,6 @@
     .header__logo{
         height: 70px;
         width: 90px;
-        
         margin-right: 450px;
     }
     .header__contain-login-1{
@@ -958,15 +889,12 @@
         margin-right: 230px;
     }
     .main{
-        
         height: 500px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        
+        justify-content: center; 
     }
-    .main__contain-title{
-        
+    .main__contain-title{ 
         width: 800px;
         height: 200px;
     }
@@ -974,19 +902,16 @@
         font-size: 65px;
     }
     .main__contain-box{
-        
         width: 600px;
         height: 80px; 
     }
     .main__contain-text{
-        
         height: 75px;
         margin-top: 15px;
-       
         width: 500px;
     }
     .main__text{
-        font-size: 14px;
+        font-size: 17px;
     }
     .main__exclamation{
         font-size: 25px;
@@ -1000,7 +925,6 @@
         margin-top: 30px;
     }
     .main__contain-title-and-text{
-        
         width: 500px;
         margin-right: 40px;
     }
@@ -1009,16 +933,13 @@
     }
     .main__text-2{
         font-size: 15px;
-        
     }
     .section__contain-box{
         width: 600px;
-        height: 450px;
-        
+        height: 450px;   
     }
     .section__contain-text{
-        font-size: 16px;
-        
+        font-size: 17px; 
     }
     .section__contain-button{
         width: 540px;
@@ -1031,8 +952,8 @@
     }
     .section__contain-link{
         font-size: 14px;
-        
     }
+    
     .container__contain-box-2{
         width: 600px;
         height: 450px;
@@ -1053,7 +974,12 @@
     .container__link-mes{
         font-size: 14px;
     }
-
+    .container__contain-premium-anual{
+        width: 300px;
+    }
+    .container__text-mes{
+        font-size: 18px;
+    }
     .cards{
         height: 800px;
     }
@@ -1066,7 +992,6 @@
         width: 500px;
     }
     .cards__contain-text{
-        
         width: 510px;
         font-size: 17px;
         margin-bottom: 50px;
@@ -1081,16 +1006,12 @@
         height: 55px;
         margin-left: -10px;
     }
-    .cards__contain-cards{
-        
+    .cards__contain-cards{  
        margin-top: 200px;
-       margin-right: 50px;
-       
-        
+       margin-right: 50px; 
     }
     .cards__contain-card-3{
-        width: 300px;
-               
+        width: 300px;        
     }
     .footer__text{
         padding: 100px;
@@ -1110,10 +1031,4 @@
     .footer__logo-deezer{
         margin-top: 60px;
     }
-
-
-
-
-
-
 }
